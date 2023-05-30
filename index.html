@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #img{
+            display: inline-block;
+            height: 600px;
+            width: 80%;
+            background-image: url(./img/2.jpg);
+            background-size: 100%;
+            background-position: center;
+            height: 600px;
+            width: 80%;
+        }
+        .page-2{
+            display: inline-block;
+            width: 20%;
+            float: right;
+            top: 0;
+        }
+        .text{
+            padding-top: 200px;
+            margin-left: 80px;
+        }
+        h2{
+            padding-top: 5px;
+            color: white;
+        }
+        h3{
+            color: white;
+            font-size: 48px;
+        }
+        .cls{
+            clear: both;
+        }
+        .resent{
+            margin: 0 0 0 80px;
+            width: 40%;
+            display: inline-block;
+        }
+        .resent h2{
+            color: black;
+            display: inline-block;
+        }
+        .resent a{
+            text-decoration-color: rgb(40, 0, 77);
+            padding-top: 5px;
+        }
+        .bottom-page{
+            width: 80%;
+            display: inline-block;
+        }
+        .add{
+            float: right;
+            margin: 0 80px 0 0px;
+            width: 40%;
+            display: inline-block;
+        }
+        .add h2{
+            color: black;
+            display: inline-block;
+        
+        }
+        .page-2 img{
+            margin-left: 20px;
+            width: 350px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="body">
+        <br>
+        <div class="button" >
+            <button style="padding: 10px 20px; background-color: red; border: 0; color: white;"
+            onclick="document.getElementById('hide').style.display = 'none';" 
+            >REKLAMANI O'CHIRISH</button>
+            <button style="padding: 10px 20px; background-color: blue; border: 0; color: white;"
+            onclick="document.getElementById('img').style.backgroundImage='url(./img/1.jpg)';" 
+            >FONNI O'ZGARTIRISH</button>
+        </div>
+        <br>
+
+        <!-- amaliyot -->
+
+
+
+        <div id="img" class="page-1">
+            <div class="first">
+            
+                <div class="text">
+                    <h2>DRAMA</h2>
+                    <h3>BEST EARTH</h3>
+                    <h2>THE STORY OF A MAN WHO SURVIVED ON AN ALIEN <br>PLANET ALONE</h1>
+                    <h2 style="color: rgb(255, 0, 64);">IMDb: 8.0   Movie star: 7.7</h1>
+                </div>
+            </div>
+            <div class="cls"></div>
+            <br>
+
+            <!-- resent -->
+
+            
+
+        </div>
+        <div id="hide" class="page-2">
+            <h2 style="text-align: center; color: rgb(61, 0, 117);">Advertising from sponsors</h2>
+            <br>
+            <br>
+            <img src="./img/facebook.jpg" alt="">
+            <img src="./img/media.png" alt="">
+            <img src="./img/content_2.jpg" alt="">
+            <img src="./img/content_3.png" alt="">
+            <!-- <img src="./img/1.jpg" alt=""> -->
+        </div>
+        <br>
+        <br>
+        <div class="bottom-page">
+            <div class="resent">
+                <h2 style="border-bottom: 2px solid black;">
+                    RESE <h2 style="border: none;">NT SERIES
+                </h2>
+                    <br>
+                    <br>
+                    <a href="" style="color: black; font-size: 20px; display: inline-block;">OMAR</a>
+                    <br>
+                    <a href="" style="color: black; font-size: 20px; display: inline-block;">THE FINAL LEGACY</a>
+                    <br>
+                    <a href="" style="color: black; font-size: 20px; display: inline-block;">ERTUGRUL</a>
+                    <br>
+                    <a href="" style="color: black; font-size: 20px; display: inline-block;">MAGNIFICENT CENTURY</a>
+                    <br>
+                    <a href="" style="color: black; font-size: 20px; display: inline-block;">GREAT SELJUKS GUARDIANS..</a>
+                </h2>
+            </div>
+
+            <!-- add -->
+
+            <div class="add">
+                <h2 style="border-bottom: 2px solid black;">
+                    ADD <h2 style="border: none;"><span style="color: transparent;">1</span> NEW SERIES
+                </h2>
+                <br>
+                <br>
+                <h5>
+                    Name of series
+                </h5>
+                <input type="text" placeholder="What has alreacy been viewed...?" style="margin-top: 5px; padding: 10px; background-color: rgb(226, 226, 226); border-radius: 5px; border: 1px solid rgb(156, 156, 156); width: 210px;">
+                <h5 style="margin-top: 5px;">
+                    Make it your favorite?
+                </h5>
+                <input type="checkbox" name="" id="" style="display: inline-block; margin-top: 5px;"> <h5 style="display: inline-block; margin-top: 5px; ">Yes!</h5>
+                <br>
+
+                <button style="padding: 10px 40px; background-color: rgb(44, 0, 84); margin-top: 5px; color: white;">Submit</button>
+                
+
+
+
+
+
+            </div>
+        </div>
+        <div class="cls"></div>
+        
+        
+        
+
+
+        
+    </div>
+    <script>
+    // document.getElementById('hide').style.display = 'none';
+    //    document.getElementById('img').style.backgroundImage="url(./img/1.jpg)"; 
+    </script>
+</body>
+</html>
